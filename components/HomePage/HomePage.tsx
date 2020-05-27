@@ -1,9 +1,10 @@
-import { HomePageContainer } from "./HomePage.styles";
+import { HomePageContainer, Title, SubTitle } from "./HomePage.styles";
 
 const HomePage = () => {
   return (
     <HomePageContainer>
-      <h1>HomePage</h1>
+      <Title>BEN GRUNFELD</Title>
+      <SubTitle>FRONT END ENGINEER</SubTitle>
     </HomePageContainer>
   );
 };
