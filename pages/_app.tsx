@@ -20,6 +20,10 @@ export default class MyApp extends App {
         <Head>
           <title>Ben Grunfeld</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap"
+            rel="stylesheet"
+          />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <ThemeProvider theme={theme}>
